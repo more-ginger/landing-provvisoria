@@ -2,7 +2,7 @@ body{
 
 }
 
-.container {
+.header {
     margin: 0 0 0 0;
     width: 1170px;
 }
@@ -33,4 +33,40 @@ body{
   width: 600px;
   height:600px;
 
+}
+
+.intro-big {
+margin-bottom: 120px;
+width: 100%;
+/*font-family: 'Circular-book';*/
+/*max-width: 800px;*/
+text-align: center;
+font-size: 42px;
+line-height: 1.5;
+}
+
+.quote {
+max-width: 930px;
+padding: 0 25px;
+margin: 0 auto 90px;
+display: block;
+font-size: 36px;
+text-align: center;
+}
+
+.text{
+  font-style: italic;
+position: relative;
+padding-right: 30px;
+}
+
+.sharer {
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+.author span{
+  color: #D8D8D8;
+  opacity: .9;
 }
