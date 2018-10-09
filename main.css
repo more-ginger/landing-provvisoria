@@ -203,6 +203,7 @@ a, a:focus, a:hover {
 #video {
   width: 300px;
   height: 300px;
+  margin-top: 10%;
 }
 
 .paragraph p{
@@ -217,6 +218,32 @@ a, a:focus, a:hover {
 .text-butt-padding {
       padding: 70 0 70;
       text-align: center;
+}
+
+.logo {
+    top: 15px;
+    left: 15px;
+}
+
+.logo img {
+    height: 20px;
+    width: auto;
+}
+
+.wrapper {
+  padding: 20px 15px;
+}
+
+.cover {
+  height: 75%;
+}
+
+.btn-outline{
+      margin: 20px 0px 0px 1%;
+}
+
+.button-width {
+  height: 60%;
 }
 
 }
