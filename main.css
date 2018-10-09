@@ -38,7 +38,7 @@ body{
 .intro-big {
 margin-bottom: 120px;
 width: 100%;
-/*font-family: 'Circular-book';*/
+font-family: 'Circular Std Medium';
 /*max-width: 800px;*/
 text-align: center;
 font-size: 42px;
@@ -52,10 +52,11 @@ margin: 0 auto 90px;
 display: block;
 font-size: 36px;
 text-align: center;
+font-family: 'Circular Std Book';
 }
 
 .text{
-  font-style: italic;
+font-style: italic;
 position: relative;
 padding-right: 30px;
 }
@@ -69,4 +70,153 @@ right: 0;
 .author span{
   color: #D8D8D8;
   opacity: .9;
+}
+
+.paragraph p{
+font-size: 20px;
+line-height: 1.8;
+margin: 0;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+font-family: 'Circular Std Book';
+}
+
+.button-width {
+  width: 100%;
+  height: 50%;
+}
+
+.button-gradient {
+  background-image: -webkit-linear-gradient(top right, #99D7CE, #FFC6B4);
+  margin-top: 120px;
+  width: inherit;
+  height:inherit;
+  font-family: 'Circular Std Book';
+  font-size: 42px;
+  color: white;
+
+}
+
+.text-butt-padding {
+      padding: 70 100 70;
+}
+
+
+
+.btn-outline {
+  border: 1px solid white;
+display: inline-block;
+padding: 0 30px;
+height: 35px;
+line-height: 35px;
+text-align: center;
+color: white;
+font-size: 11px;
+letter-spacing: 1px;
+vertical-align: top;
+overflow: hidden;
+text-transform: uppercase;
+margin: 20px 0px 0px 49%;
+}
+
+#main-footer {
+  font-family: 'Circular Std Book';
+}
+
+#main-footer.footer--complex {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#main-footer.footer--complex img {
+    display: block;
+    max-width: 120px;
+    margin: 0 auto 30px;
+}
+
+#main-footer.footer--complex .share {
+    margin-bottom: 30px;
+}
+
+#main-footer.footer--complex .copy {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+#main-footer.footer--complex .privacy {
+    font-size: 16px;
+}
+
+#main-footer.footer--complex .share .subtitle {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#main-footer.footer--complex .share ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-footer.footer--complex .share ul li {
+    margin: 0 5px;
+    padding: 0;
+    display: inline-block;
+}
+
+#main-footer.footer--complex .share ul li a {
+    font-size: 18px;
+    opacity: .5;
+}
+
+.subtitle {
+    line-height: 1;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: .5;
+    transition: opacity .8s;
+}
+
+#main-footer.footer--complex .privacy a {
+    text-decoration: underline;
+}
+
+a, a:focus, a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/*media breakdown*/
+
+@media (max-width: 37.49em){
+.quote {
+    font-size: 18px;
+    margin-bottom: 45px;
+    }
+
+
+#video {
+  width: 300px;
+  height: 300px;
+}
+
+.paragraph p{
+  font-size: 18px;
+  margin-bottom: 45px;
+  padding: 40px;
+}
+
+.par-button {
+  font-size: 22px;
+}
+.text-butt-padding {
+      padding: 70 0 70;
+      text-align: center;
+}
+
 }
